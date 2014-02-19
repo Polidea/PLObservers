@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6038C35A2B3B2B2E97D75739 /* PLObservers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6038C5E265051B4C80FFC0A7 /* PLObservers.m */; };
+		6038CC9AE06F32C105A44190 /* ChatUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6038C21CCC57AEBCB181867B /* ChatUser.m */; };
+		6038CF2F864E0AEA9EC0E9D9 /* PLObserversSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 6038C7F07521812B34491C67 /* PLObserversSpec.m */; };
+		BE2B6B963D464AACADE01830 /* libPods-PLObserversTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 902E4DA46C87478E8CB2A2A9 /* libPods-PLObserversTests.a */; };
+		EF1FEABA18A50AE000DB8463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1FEAB918A50AE000DB8463 /* Foundation.framework */; };
+		EF1FEABC18A50AE000DB8463 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1FEABB18A50AE000DB8463 /* CoreGraphics.framework */; };
+		EF1FEABE18A50AE000DB8463 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1FEABD18A50AE000DB8463 /* UIKit.framework */; };
+		EF1FEAC418A50AE000DB8463 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF1FEAC218A50AE000DB8463 /* InfoPlist.strings */; };
+		EF1FEAC618A50AE000DB8463 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1FEAC518A50AE000DB8463 /* main.m */; };
+		EF1FEACA18A50AE000DB8463 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1FEAC918A50AE000DB8463 /* AppDelegate.m */; };
+		EF1FEACC18A50AE000DB8463 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1FEACB18A50AE000DB8463 /* Images.xcassets */; };
+		EF1FEAD318A50AE000DB8463 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1FEAD218A50AE000DB8463 /* XCTest.framework */; };
+		EF1FEAD418A50AE000DB8463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1FEAB918A50AE000DB8463 /* Foundation.framework */; };
+		EF1FEAD518A50AE000DB8463 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1FEABD18A50AE000DB8463 /* UIKit.framework */; };
+		EF1FEADD18A50AE000DB8463 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF1FEADB18A50AE000DB8463 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF1FEAD618A50AE000DB8463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1FEAAE18A50AE000DB8463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1FEAB518A50AE000DB8463;
+			remoteInfo = Observers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6038C21CCC57AEBCB181867B /* ChatUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatUser.m; sourceTree = "<group>"; };
+		6038C5E265051B4C80FFC0A7 /* PLObservers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLObservers.m; sourceTree = "<group>"; };
+		6038C6EBDAFF36130865481E /* ChatUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatUser.h; sourceTree = "<group>"; };
+		6038C7F07521812B34491C67 /* PLObserversSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLObserversSpec.m; sourceTree = "<group>"; };
+		6038CC0B6F2C3E443E1147F1 /* ChatServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatServiceProtocol.h; sourceTree = "<group>"; };
+		6038CEE7546E974515CA9AEC /* PLObservers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLObservers.h; sourceTree = "<group>"; };
+		6250BF9893F34DA7BF76C95A /* Pods-PLObserversTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLObserversTests.xcconfig"; path = "Pods/Pods-PLObserversTests.xcconfig"; sourceTree = "<group>"; };
+		902E4DA46C87478E8CB2A2A9 /* libPods-PLObserversTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLObserversTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1FEAB618A50AE000DB8463 /* PLObservers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLObservers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1FEAB918A50AE000DB8463 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF1FEABB18A50AE000DB8463 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF1FEABD18A50AE000DB8463 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF1FEAC118A50AE000DB8463 /* PLObservers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PLObservers-Info.plist"; sourceTree = "<group>"; };
+		EF1FEAC318A50AE000DB8463 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF1FEAC518A50AE000DB8463 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF1FEAC718A50AE000DB8463 /* PLObservers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PLObservers-Prefix.pch"; sourceTree = "<group>"; };
+		EF1FEAC818A50AE000DB8463 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF1FEAC918A50AE000DB8463 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF1FEACB18A50AE000DB8463 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF1FEAD118A50AE000DB8463 /* PLObserversTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLObserversTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1FEAD218A50AE000DB8463 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF1FEADA18A50AE000DB8463 /* PLObserversTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PLObserversTests-Info.plist"; sourceTree = "<group>"; };
+		EF1FEADC18A50AE000DB8463 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF1FEAB318A50AE000DB8463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1FEABC18A50AE000DB8463 /* CoreGraphics.framework in Frameworks */,
+				EF1FEABE18A50AE000DB8463 /* UIKit.framework in Frameworks */,
+				EF1FEABA18A50AE000DB8463 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1FEACE18A50AE000DB8463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1FEAD318A50AE000DB8463 /* XCTest.framework in Frameworks */,
+				EF1FEAD518A50AE000DB8463 /* UIKit.framework in Frameworks */,
+				EF1FEAD418A50AE000DB8463 /* Foundation.framework in Frameworks */,
+				BE2B6B963D464AACADE01830 /* libPods-PLObserversTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6038C06E5D35D3E2D67FB96C /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				6038C7F07521812B34491C67 /* PLObserversSpec.m */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
+		6038C505FB571B5B6C230EF7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6038C6EBDAFF36130865481E /* ChatUser.h */,
+				6038C21CCC57AEBCB181867B /* ChatUser.m */,
+				6038CC0B6F2C3E443E1147F1 /* ChatServiceProtocol.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EF1FEAAD18A50AE000DB8463 = {
+			isa = PBXGroup;
+			children = (
+				EF1FEABF18A50AE000DB8463 /* Observers */,
+				EF1FEAD818A50AE000DB8463 /* ObserversTests */,
+				EF1FEAB818A50AE000DB8463 /* Frameworks */,
+				EF1FEAB718A50AE000DB8463 /* Products */,
+				6250BF9893F34DA7BF76C95A /* Pods-PLObserversTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		EF1FEAB718A50AE000DB8463 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF1FEAB618A50AE000DB8463 /* PLObservers.app */,
+				EF1FEAD118A50AE000DB8463 /* PLObserversTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF1FEAB818A50AE000DB8463 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF1FEAB918A50AE000DB8463 /* Foundation.framework */,
+				EF1FEABB18A50AE000DB8463 /* CoreGraphics.framework */,
+				EF1FEABD18A50AE000DB8463 /* UIKit.framework */,
+				EF1FEAD218A50AE000DB8463 /* XCTest.framework */,
+				902E4DA46C87478E8CB2A2A9 /* libPods-PLObserversTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF1FEABF18A50AE000DB8463 /* Observers */ = {
+			isa = PBXGroup;
+			children = (
+				EF1FEAC818A50AE000DB8463 /* AppDelegate.h */,
+				EF1FEAC918A50AE000DB8463 /* AppDelegate.m */,
+				EF1FEACB18A50AE000DB8463 /* Images.xcassets */,
+				EF1FEAC018A50AE000DB8463 /* Supporting Files */,
+				6038C5E265051B4C80FFC0A7 /* PLObservers.m */,
+				6038CEE7546E974515CA9AEC /* PLObservers.h */,
+			);
+			path = Observers;
+			sourceTree = "<group>";
+		};
+		EF1FEAC018A50AE000DB8463 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF1FEAC118A50AE000DB8463 /* PLObservers-Info.plist */,
+				EF1FEAC218A50AE000DB8463 /* InfoPlist.strings */,
+				EF1FEAC518A50AE000DB8463 /* main.m */,
+				EF1FEAC718A50AE000DB8463 /* PLObservers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF1FEAD818A50AE000DB8463 /* ObserversTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF1FEAD918A50AE000DB8463 /* Supporting Files */,
+				6038C505FB571B5B6C230EF7 /* Helpers */,
+				6038C06E5D35D3E2D67FB96C /* Specs */,
+			);
+			path = ObserversTests;
+			sourceTree = "<group>";
+		};
+		EF1FEAD918A50AE000DB8463 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF1FEADA18A50AE000DB8463 /* PLObserversTests-Info.plist */,
+				EF1FEADB18A50AE000DB8463 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF1FEAB518A50AE000DB8463 /* PLObservers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1FEAE218A50AE000DB8463 /* Build configuration list for PBXNativeTarget "PLObservers" */;
+			buildPhases = (
+				EF1FEAB218A50AE000DB8463 /* Sources */,
+				EF1FEAB318A50AE000DB8463 /* Frameworks */,
+				EF1FEAB418A50AE000DB8463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PLObservers;
+			productName = Observers;
+			productReference = EF1FEAB618A50AE000DB8463 /* PLObservers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF1FEAD018A50AE000DB8463 /* PLObserversTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1FEAE518A50AE000DB8463 /* Build configuration list for PBXNativeTarget "PLObserversTests" */;
+			buildPhases = (
+				2D287494D8744FC1A2149267 /* Check Pods Manifest.lock */,
+				EF1FEACD18A50AE000DB8463 /* Sources */,
+				EF1FEACE18A50AE000DB8463 /* Frameworks */,
+				EF1FEACF18A50AE000DB8463 /* Resources */,
+				B325976F055547D7A24586D5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1FEAD718A50AE000DB8463 /* PBXTargetDependency */,
+			);
+			name = PLObserversTests;
+			productName = ObserversTests;
+			productReference = EF1FEAD118A50AE000DB8463 /* PLObserversTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF1FEAAE18A50AE000DB8463 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Polidea;
+				TargetAttributes = {
+					EF1FEAD018A50AE000DB8463 = {
+						TestTargetID = EF1FEAB518A50AE000DB8463;
+					};
+				};
+			};
+			buildConfigurationList = EF1FEAB118A50AE000DB8463 /* Build configuration list for PBXProject "PLObservers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF1FEAAD18A50AE000DB8463;
+			productRefGroup = EF1FEAB718A50AE000DB8463 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF1FEAB518A50AE000DB8463 /* PLObservers */,
+				EF1FEAD018A50AE000DB8463 /* PLObserversTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF1FEAB418A50AE000DB8463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1FEAC418A50AE000DB8463 /* InfoPlist.strings in Resources */,
+				EF1FEACC18A50AE000DB8463 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1FEACF18A50AE000DB8463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1FEADD18A50AE000DB8463 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D287494D8744FC1A2149267 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B325976F055547D7A24586D5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-PLObserversTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF1FEAB218A50AE000DB8463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1FEACA18A50AE000DB8463 /* AppDelegate.m in Sources */,
+				EF1FEAC618A50AE000DB8463 /* main.m in Sources */,
+				6038C35A2B3B2B2E97D75739 /* PLObservers.m in Sources */,
+				6038CC9AE06F32C105A44190 /* ChatUser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1FEACD18A50AE000DB8463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6038CF2F864E0AEA9EC0E9D9 /* PLObserversSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF1FEAD718A50AE000DB8463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF1FEAB518A50AE000DB8463 /* PLObservers */;
+			targetProxy = EF1FEAD618A50AE000DB8463 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF1FEAC218A50AE000DB8463 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1FEAC318A50AE000DB8463 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF1FEADB18A50AE000DB8463 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1FEADC18A50AE000DB8463 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF1FEAE018A50AE000DB8463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF1FEAE118A50AE000DB8463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF1FEAE318A50AE000DB8463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Observers/PLObservers-Prefix.pch";
+				INFOPLIST_FILE = "Observers/PLObservers-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = PLObservers;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF1FEAE418A50AE000DB8463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Observers/PLObservers-Prefix.pch";
+				INFOPLIST_FILE = "Observers/PLObservers-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = PLObservers;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF1FEAE618A50AE000DB8463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6250BF9893F34DA7BF76C95A /* Pods-PLObserversTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PLObservers.app/PLObservers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Observers/PLObservers-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ObserversTests/PLObserversTests-Info.plist";
+				PRODUCT_NAME = PLObserversTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				"TEST_HOST[sdk=*]" = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF1FEAE718A50AE000DB8463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6250BF9893F34DA7BF76C95A /* Pods-PLObserversTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PLObservers.app/PLObservers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Observers/PLObservers-Prefix.pch";
+				INFOPLIST_FILE = "ObserversTests/PLObserversTests-Info.plist";
+				PRODUCT_NAME = PLObserversTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF1FEAB118A50AE000DB8463 /* Build configuration list for PBXProject "PLObservers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1FEAE018A50AE000DB8463 /* Debug */,
+				EF1FEAE118A50AE000DB8463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1FEAE218A50AE000DB8463 /* Build configuration list for PBXNativeTarget "PLObservers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1FEAE318A50AE000DB8463 /* Debug */,
+				EF1FEAE418A50AE000DB8463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1FEAE518A50AE000DB8463 /* Build configuration list for PBXNativeTarget "PLObserversTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1FEAE618A50AE000DB8463 /* Debug */,
+				EF1FEAE718A50AE000DB8463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF1FEAAE18A50AE000DB8463 /* Project object */;
+}
