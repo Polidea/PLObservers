@@ -16,7 +16,7 @@
 @end
 
 @implementation PLWeakRef {
-    __weak id _weakReference;
+    __weak id<NSObject> _weakReference;
 }
 
 - (instancetype)initWithObject:(id)object {
@@ -60,7 +60,15 @@
 }
 
 - (void)removeObserver:(id <NSObject>)observer {
-    [_observers removeObject:[PLWeakRef weakRefWithObject:observer]];
+    for(NSUInteger i = 0; i < _observers.count;){
+        PLWeakRef * ref = _observers[i];
+        if(ref.weakReference == observer){
+            [_observers removeObjectAtIndex:i];
+            return;
+        } else {
+            ++i;
+        }
+    }
 }
 
 - (BOOL)respondsToSelector:(SEL)aSelector {
