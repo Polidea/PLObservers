@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'PLObservers', :exclusive => true do
+  pod "PLObservers", :path => "../"
+
+  pod 'Kiwi'
+end
