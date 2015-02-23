@@ -1,0 +1,17 @@
+PODS:
+  - Kiwi (2.3.1)
+  - PLObservers (0.1.0)
+
+DEPENDENCIES:
+  - Kiwi
+  - PLObservers (from `../`)
+
+EXTERNAL SOURCES:
+  PLObservers:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Kiwi: 73e1400209055ee9c8ba78c6012b6b642d0fb9f7
+  PLObservers: 2ef86071558f4db8eac9e0bd494a199afa40e458
+
+COCOAPODS: 0.35.0

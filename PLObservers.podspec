@@ -9,30 +9,19 @@
 
 Pod::Spec.new do |s|
   s.name             = "PLObservers"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of PLObservers."
+  s.version          = "1.0.0"
+  s.summary          = "Multi-observers for Objective-C"
   s.description      = <<-DESC
-                       An optional longer description of PLObservers
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Small tool for fast implementation of multi-observer pattern in Objective-C
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/PLObservers"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/Polidea/PLObservers"
   s.license          = 'MIT'
   s.author           = { "Antoni Kedracki" => "antoni.kedracki@polidea.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/PLObservers.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/Polidea/PLObservers.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/polidea'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'PLObservers' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
