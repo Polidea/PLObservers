@@ -1,3 +1,9 @@
+---
+
+This library is deprecated in favor of [PLXObservers](https://github.com/Polidea/PLXObservers)
+
+---
+
 # PLObservers
 <!--
 [![CI Status](http://img.shields.io/travis/Antoni Kedracki/PLObservers.svg?style=flat)](https://travis-ci.org/Antoni Kedracki/PLObservers)
